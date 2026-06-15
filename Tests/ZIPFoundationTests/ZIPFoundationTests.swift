@@ -274,6 +274,8 @@ extension ZIPFoundationTests {
             ("testEntryScanForZIP64Field", testEntryScanForZIP64Field),
             ("testEntryScanForZIP64FieldErrorConditions", testEntryScanForZIP64FieldErrorConditions),
             ("testArchiveZIP64EOCDRecord", testArchiveZIP64EOCDRecord),
+            ("testArchiveZIP64EOCDRecordAllowsLowVersionNeeded", testArchiveZIP64EOCDRecordAllowsLowVersionNeeded),
+            ("testArchiveWithOutlookZIP64EOCDVersionEnumeratesEntries", testArchiveWithOutlookZIP64EOCDVersionEnumeratesEntries),
             ("testArchiveInvalidZIP64EOCERecordConditions", testArchiveInvalidZIP64EOCERecordConditions),
             ("testArchiveZIP64EOCDLocator", testArchiveZIP64EOCDLocator),
             ("testArchiveInvalidZIP64EOCDLocatorConditions", testArchiveInvalidZIP64EOCDLocatorConditions),
